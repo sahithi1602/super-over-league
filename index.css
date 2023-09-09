@@ -10,7 +10,7 @@ body {
 .super-over-league-container {
   background-color: #0f172a;
   min-height: 100vh;
-  flex: display;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -40,8 +40,8 @@ body {
   }
 }
 .container {
-  flex: display;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
